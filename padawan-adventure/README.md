@@ -81,7 +81,7 @@ Here is your mission:
 7. You should have both `pandas` and `matplotlib` imported into your notebook file!
 8. Now create a new cell and use `pandas` to read your `diamond.csv` file into a dataframe called `df`. If you completed the previous quest, the `diamond.csv` should be in your current working directory.
 9. Now print that dataframe out to see what's inside like this `print(df)`
-10. Looks like we've got a bunch of `x` and `y` coordinates in here, so let's use `matplotlib` to plot this data. `matplotlib` has a function called `scatter` which allows you to plot `x`,`y` coordinates on a graph. Use ChatGPT to plot the data.
+10. Looks like we've got a bunch of `x` and `y` coordinates in here, so let's use `matplotlib` to plot this data. `matplotlib` has a function called `plot` which allows you to plot `x`,`y` coordinates on a graph. Use ChatGPT to plot the data.
 11. Now that you can see the data, let's do a little bit of data science. Let's calculate the maximum, minimum, mean, standard deviation, and median values for the `x` column and the `y` column. Ask ChatGPT how to calculate each one of these statistics from a column in a pandas dataframe.
 12. Save each of these statistics to a descriptive variable, something like `x_mean` or `y_standard_deviation` so that we know which variable is set to which value.
 13. Then, you're going to organize these variables into a python dictionary so that we can keep this data in an organized format. Here's how the dictionary should be organized:
